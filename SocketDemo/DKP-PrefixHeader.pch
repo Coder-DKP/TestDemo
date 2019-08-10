@@ -1,0 +1,19 @@
+//
+//  DKP-PrefixHeader.pch
+//  SocketDemo
+//
+//  Created by 罗玉洁 on 2019/8/6.
+//  Copyright © 2019 罗玉洁. All rights reserved.
+//
+
+#ifndef DKP_PrefixHeader_pch
+#define DKP_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "GlobleConst.h"
+
+#define SCREENW [UIScreen mainScreen].bounds.size.width
+#define SCREENH [UIScreen mainScreen].bounds.size.height
+#endif /* DKP_PrefixHeader_pch */
