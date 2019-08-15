@@ -7,8 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "mainVc.h"
-@interface AppDelegate ()
+
+#import "DKPTabVc.h"
+@interface AppDelegate ()<UITabBarControllerDelegate>
 
 @end
 
@@ -18,10 +19,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    UINavigationController *nVc = [[UINavigationController alloc]initWithRootViewController:[[mainVc alloc]init]];
-    self.window.rootViewController = nVc;
-    [self.window makeKeyAndVisible];
+     DKPTabVc *roootVc =[[DKPTabVc alloc]init];
     
+    self.window.rootViewController = roootVc;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

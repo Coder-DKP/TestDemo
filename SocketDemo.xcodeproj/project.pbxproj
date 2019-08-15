@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC52DE6123010A90001098D9 /* DKPAnimationVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CC52DE6023010A90001098D9 /* DKPAnimationVc.m */; };
+		CC52DE6423014F59001098D9 /* UIView+test.m in Sources */ = {isa = PBXBuildFile; fileRef = CC52DE6323014F59001098D9 /* UIView+test.m */; };
+		CC52DE6823015228001098D9 /* DKPCategoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC52DE6723015228001098D9 /* DKPCategoryVC.m */; };
+		CC52DE6B2305350B001098D9 /* DKPTabVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CC52DE6A2305350B001098D9 /* DKPTabVc.m */; };
 		CC749B4D22F9216D00740FF3 /* GlobleConst.m in Sources */ = {isa = PBXBuildFile; fileRef = CC749B4C22F9216D00740FF3 /* GlobleConst.m */; };
 		CC78C8C122FD78E500199A69 /* TestVc.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78C8BF22FD78E500199A69 /* TestVc.m */; };
 		CC78C8C222FD78E500199A69 /* one.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78C8C022FD78E500199A69 /* one.m */; };
@@ -51,6 +55,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC52DE5F23010A90001098D9 /* DKPAnimationVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKPAnimationVc.h; sourceTree = "<group>"; };
+		CC52DE6023010A90001098D9 /* DKPAnimationVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKPAnimationVc.m; sourceTree = "<group>"; };
+		CC52DE6223014F59001098D9 /* UIView+test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+test.h"; sourceTree = "<group>"; };
+		CC52DE6323014F59001098D9 /* UIView+test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+test.m"; sourceTree = "<group>"; };
+		CC52DE6623015228001098D9 /* DKPCategoryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKPCategoryVC.h; sourceTree = "<group>"; };
+		CC52DE6723015228001098D9 /* DKPCategoryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKPCategoryVC.m; sourceTree = "<group>"; };
+		CC52DE692305350B001098D9 /* DKPTabVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKPTabVc.h; sourceTree = "<group>"; };
+		CC52DE6A2305350B001098D9 /* DKPTabVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKPTabVc.m; sourceTree = "<group>"; };
 		CC749B4B22F9216D00740FF3 /* GlobleConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobleConst.h; sourceTree = "<group>"; };
 		CC749B4C22F9216D00740FF3 /* GlobleConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobleConst.m; sourceTree = "<group>"; };
 		CC749B4E22F9221000740FF3 /* DKP-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DKP-PrefixHeader.pch"; sourceTree = "<group>"; };
@@ -126,6 +138,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC52DE5E23010A73001098D9 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				CC52DE5F23010A90001098D9 /* DKPAnimationVc.h */,
+				CC52DE6023010A90001098D9 /* DKPAnimationVc.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		CC52DE6523015208001098D9 /* 关于分类 */ = {
+			isa = PBXGroup;
+			children = (
+				CC52DE6623015228001098D9 /* DKPCategoryVC.h */,
+				CC52DE6723015228001098D9 /* DKPCategoryVC.m */,
+			);
+			path = "关于分类";
+			sourceTree = "<group>";
+		};
 		CC78C8A822FD782000199A69 /* const_static_extern */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +206,8 @@
 		CC78C8B522FD789700199A69 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				CC52DE6223014F59001098D9 /* UIView+test.h */,
+				CC52DE6323014F59001098D9 /* UIView+test.m */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -226,6 +258,8 @@
 		CCBA8B0222EEED2700546F6C /* SocketDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CC52DE6523015208001098D9 /* 关于分类 */,
+				CC52DE5E23010A73001098D9 /* Animations */,
 				CC78C8BC22FD78E500199A69 /* Temp */,
 				CC78C8B522FD789700199A69 /* Other */,
 				CC78C8AB22FD782000199A69 /* 多线程 */,
@@ -246,6 +280,8 @@
 				CC78C8D522FD948700199A69 /* titleArray.plist */,
 				CC78C8DD22FDA17D00199A69 /* BaseViewController.h */,
 				CC78C8DE22FDA17D00199A69 /* BaseViewController.m */,
+				CC52DE692305350B001098D9 /* DKPTabVc.h */,
+				CC52DE6A2305350B001098D9 /* DKPTabVc.m */,
 			);
 			path = SocketDemo;
 			sourceTree = "<group>";
@@ -411,9 +447,13 @@
 				CC78C8CE22FD798B00199A69 /* GCDAsyncSocket.m in Sources */,
 				CC78C8C122FD78E500199A69 /* TestVc.m in Sources */,
 				CCD3ABD922FE588E00CF18A0 /* BaseView.m in Sources */,
+				CC52DE6123010A90001098D9 /* DKPAnimationVc.m in Sources */,
 				CC78C8E522FDA3C400199A69 /* firstView.m in Sources */,
 				CC78C8C222FD78E500199A69 /* one.m in Sources */,
 				CC78C8DC22FD9F5D00199A69 /* DKPConstVc.m in Sources */,
+				CC52DE6823015228001098D9 /* DKPCategoryVC.m in Sources */,
+				CC52DE6423014F59001098D9 /* UIView+test.m in Sources */,
+				CC52DE6B2305350B001098D9 /* DKPTabVc.m in Sources */,
 				CC78C8E822FDA3D000199A69 /* secondView.m in Sources */,
 				CC78C8D122FD79DE00199A69 /* SocketVc.m in Sources */,
 				CC78C8EB22FDA3DB00199A69 /* thirdView.m in Sources */,
