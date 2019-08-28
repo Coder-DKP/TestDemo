@@ -265,7 +265,7 @@ eg.
     [UIView transitionWithView:self.animeteView duration:2.0 options:UIViewAnimationOptionAutoreverse animations:^{
         self.animeteView.backgroundColor = [UIColor yellowColor];
     } completion:nil];
-    CATransition
+
 }
 //UIView自带动画.(UIView.h中有三个分类，分别代表3种不同的UIView动画)
 -(void)animationofUIView{

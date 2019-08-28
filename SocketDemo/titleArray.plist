@@ -44,7 +44,7 @@
 			<key>title</key>
 			<string>网络请求</string>
 			<key>destination</key>
-			<string>SocketVc</string>
+			<string>DKPNetWorkVc</string>
 		</dict>
 		<dict>
 			<key>title</key>
